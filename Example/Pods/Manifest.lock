@@ -1,0 +1,16 @@
+PODS:
+  - Scenic (0.1.0)
+
+DEPENDENCIES:
+  - Scenic (from `../`)
+
+EXTERNAL SOURCES:
+  Scenic:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Scenic: 782b25dce59f44c1bd771848615d7f13418710b5
+
+PODFILE CHECKSUM: db965721f121a66fb0cc0466992084aeb7c4b560
+
+COCOAPODS: 1.8.4

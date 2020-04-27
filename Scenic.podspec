@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Scenic/Classes/**/*'
+
+  s.swift_versions = [ '5.0' ]
   
   # s.resource_bundles = {
   #   'Scenic' => ['Scenic/Assets/*.png']

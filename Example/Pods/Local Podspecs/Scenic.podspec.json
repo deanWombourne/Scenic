@@ -1,8 +1,8 @@
 {
   "name": "Scenic",
   "version": "0.1.0",
-  "summary": "A short description of Scenic.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A lightweight architecture for iOS apps.",
+  "description": "A lightweight architecture for iOS apps, designed to complement MVVM, but not limited to apps build using it.",
   "homepage": "https://github.com/deanWombourne/Scenic",
   "license": {
     "type": "MIT",
@@ -18,5 +18,9 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Scenic/Classes/**/*"
+  "source_files": "Scenic/Classes/**/*",
+  "swift_versions": [
+    "5.0"
+  ],
+  "swift_version": "5.0"
 }

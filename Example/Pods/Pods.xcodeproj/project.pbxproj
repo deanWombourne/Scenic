@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3172BA263B85666FC3D0DFA2B682F182 /* Pods-Scenic_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F54DDB7C2485E8965D93C117237AC4EE /* Pods-Scenic_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A2DA3C5E9C82744AFA44761E6A6DB2F /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758923E145FF2AF2F08D1CEB53CBC745 /* SceneFactory.swift */; };
+		3A2DA3C5E9C82744AFA44761E6A6DB2F /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D739BF4FA6EBD08647BADAD7EE153CB /* SceneFactory.swift */; };
 		43ED99E87FE41F58DE60C13485602919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		452CB9C16447787CF3F4EAA58C908B04 /* Pods-Scenic_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2859432034E43594748204BEDC778A02 /* Pods-Scenic_Example-dummy.m */; };
-		4C7152849C3C9857E78E606368973DE8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1A80E9117D8D99F1F7DFB2125B393 /* Router.swift */; };
-		512B9A5286F266422257DBF263C600FD /* ViewController+storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7178B2CCA19470308B78EA4FFB0233 /* ViewController+storyboard.swift */; };
-		5E303DC07B7128B683B5D59903B82B2D /* Scenic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA69A2E6C06819FD2D175DF53879944 /* Scenic-dummy.m */; };
-		6117CD01148DE64300532F7B2703C14D /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10E6677AC2880A813009A62BA1DD54 /* Scene.swift */; };
-		626E7A946068B49C7F678EB7C5BF71B7 /* Scenic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1788A3D09CE000324594A6C50A581F0F /* Scenic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C7152849C3C9857E78E606368973DE8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24527251F1723E3DC9BE7B88A545F1BA /* Router.swift */; };
+		512B9A5286F266422257DBF263C600FD /* ViewController+storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B897CF6B168D33ADB0D59A543296E8 /* ViewController+storyboard.swift */; };
+		5E303DC07B7128B683B5D59903B82B2D /* Scenic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B510BA00A61127EB5467277D8605D /* Scenic-dummy.m */; };
+		6117CD01148DE64300532F7B2703C14D /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2B5CBBBFC2301CF2A5D4BE4A246F8A /* Scene.swift */; };
+		626E7A946068B49C7F678EB7C5BF71B7 /* Scenic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB89F8266D447C6165C8FAD308EA7A50 /* Scenic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		820C8767BBF2A4ED1E760309426D1EDC /* Pods-Scenic_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 095C743D83EFB9D9C458E5C120399FB4 /* Pods-Scenic_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		833EAF71424CD3CD7E968053F1FE3B78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		BD371F84F4840AB45453F9D7B850D73A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -40,41 +40,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0825D32069FF2229F75DA57FCB456863 /* Scenic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Scenic-Info.plist"; sourceTree = "<group>"; };
 		095C743D83EFB9D9C458E5C120399FB4 /* Pods-Scenic_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scenic_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0A6A5E8F82F8BD55486E78CFC3C0D649 /* Pods-Scenic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scenic_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0DA1314E00B939B2EF479006FAE064CE /* Pods-Scenic_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scenic_Example-Info.plist"; sourceTree = "<group>"; };
-		1281679BAB75C8E6B30477A0E1BB8D78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		1788A3D09CE000324594A6C50A581F0F /* Scenic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Scenic-umbrella.h"; sourceTree = "<group>"; };
+		19710E4A2DAFFC9BE943284B8D32B61B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1CECA75AB370FDC3C167B0507EC83A2B /* Scenic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Scenic.modulemap; sourceTree = "<group>"; };
+		1D739BF4FA6EBD08647BADAD7EE153CB /* SceneFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneFactory.swift; path = Scenic/Classes/SceneFactory.swift; sourceTree = "<group>"; };
+		1F2B5CBBBFC2301CF2A5D4BE4A246F8A /* Scene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scene.swift; path = Scenic/Classes/Scene.swift; sourceTree = "<group>"; };
+		24527251F1723E3DC9BE7B88A545F1BA /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Router.swift; path = Scenic/Classes/Router.swift; sourceTree = "<group>"; };
+		27B897CF6B168D33ADB0D59A543296E8 /* ViewController+storyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+storyboard.swift"; path = "Scenic/Classes/ViewController+storyboard.swift"; sourceTree = "<group>"; };
 		2859432034E43594748204BEDC778A02 /* Pods-Scenic_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scenic_Example-dummy.m"; sourceTree = "<group>"; };
 		2B9F6C6E78282C1771986912A773B6AD /* Pods-Scenic_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scenic_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		38E791C7603A0F04DE994E77D3057E55 /* Scenic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Scenic.modulemap; sourceTree = "<group>"; };
+		33AAB53471EBFBFADB9CEFC2549B8428 /* Scenic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Scenic-Info.plist"; sourceTree = "<group>"; };
 		396941169D5D22E1BC2F2881404E589B /* Pods-Scenic_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Scenic_Example.modulemap"; sourceTree = "<group>"; };
-		3C153F55DE87FC71ABA555B3A0914249 /* Scenic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Scenic-prefix.pch"; sourceTree = "<group>"; };
-		4D10E6677AC2880A813009A62BA1DD54 /* Scene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scene.swift; path = Scenic/Classes/Scene.swift; sourceTree = "<group>"; };
-		50E65ADAF5212D8F8F11D884513E4096 /* Pods_Scenic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scenic_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E65ADAF5212D8F8F11D884513E4096 /* Pods_Scenic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Scenic_Tests.framework; path = "Pods-Scenic_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		521E99D742ADF5428DDDD9E00D86A86E /* Pods-Scenic_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scenic_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5465E1E1D4B57BBE5BBEDCE8FC12394A /* Pods-Scenic_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scenic_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		758923E145FF2AF2F08D1CEB53CBC745 /* SceneFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneFactory.swift; path = Scenic/Classes/SceneFactory.swift; sourceTree = "<group>"; };
-		7F0E6F464D42D38E6EB9AFCF739D3C2C /* Scenic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Scenic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		569B510BA00A61127EB5467277D8605D /* Scenic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Scenic-dummy.m"; sourceTree = "<group>"; };
+		7F0E6F464D42D38E6EB9AFCF739D3C2C /* Scenic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Scenic.framework; path = Scenic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3AA35726081F92A3B683FDDDE2BDE3 /* Scenic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Scenic-prefix.pch"; sourceTree = "<group>"; };
 		97F0F00B83692EDE9666C5AB442A62CC /* Pods-Scenic_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scenic_Tests-Info.plist"; sourceTree = "<group>"; };
-		99A83C3B092D23494C91A0D04CC3B256 /* Pods_Scenic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scenic_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		997F4ADFCD0BA2BF875EAC82EF8AA174 /* Scenic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Scenic.debug.xcconfig; sourceTree = "<group>"; };
+		99A83C3B092D23494C91A0D04CC3B256 /* Pods_Scenic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Scenic_Example.framework; path = "Pods-Scenic_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A06E373A682822ACFE400509B36B4987 /* Pods-Scenic_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scenic_Tests-dummy.m"; sourceTree = "<group>"; };
 		A244A94BC6970E208A586F267A004C6A /* Pods-Scenic_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scenic_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B1B0606E784ED009B39068C3C276EF2B /* Pods-Scenic_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Scenic_Tests.modulemap"; sourceTree = "<group>"; };
-		BC0F260C88060EAC7A72BD655BB974A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D3FE6578B7BA6FC9B55B85DE85D5E925 /* Pods-Scenic_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scenic_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DBA69A2E6C06819FD2D175DF53879944 /* Scenic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Scenic-dummy.m"; sourceTree = "<group>"; };
-		DC1F5335504ABA799A46915293AFED16 /* Scenic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Scenic.xcconfig; sourceTree = "<group>"; };
+		DB89F8266D447C6165C8FAD308EA7A50 /* Scenic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Scenic-umbrella.h"; sourceTree = "<group>"; };
 		DD60EE743D4D0A5A94C77BE8FC9CD9DC /* Pods-Scenic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scenic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DD7178B2CCA19470308B78EA4FFB0233 /* ViewController+storyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+storyboard.swift"; path = "Scenic/Classes/ViewController+storyboard.swift"; sourceTree = "<group>"; };
 		E9F9728007FCD6993EE4CACAF56C6CF3 /* Pods-Scenic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scenic_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EACD85C5E34E498B034F7F54551D1DC0 /* Scenic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Scenic.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		ECB1A80E9117D8D99F1F7DFB2125B393 /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Router.swift; path = Scenic/Classes/Router.swift; sourceTree = "<group>"; };
 		EF649142A12567502FBC6AEEEE422B23 /* Pods-Scenic_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scenic_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F3A30BDA06E57CD7C345F78176EA8D59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F4FB916E32E0B4B1750EF37F6870C53A /* Scenic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Scenic.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F54DDB7C2485E8965D93C117237AC4EE /* Pods-Scenic_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scenic_Example-umbrella.h"; sourceTree = "<group>"; };
+		F6FD05988EAC2272F42D9DD408F820E4 /* Scenic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Scenic.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,28 +106,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F557F5AFA80E0C5AF3C28BD5525BE08 /* Scenic */ = {
+		1C2FCC289169F02EA19D0D321F0DA85D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ECB1A80E9117D8D99F1F7DFB2125B393 /* Router.swift */,
-				4D10E6677AC2880A813009A62BA1DD54 /* Scene.swift */,
-				758923E145FF2AF2F08D1CEB53CBC745 /* SceneFactory.swift */,
-				DD7178B2CCA19470308B78EA4FFB0233 /* ViewController+storyboard.swift */,
-				271F043C1A8E27508461FCD6B537C884 /* Pod */,
-				C578BEBCE98B43896AB7C5C96C85063E /* Support Files */,
+				1CECA75AB370FDC3C167B0507EC83A2B /* Scenic.modulemap */,
+				569B510BA00A61127EB5467277D8605D /* Scenic-dummy.m */,
+				33AAB53471EBFBFADB9CEFC2549B8428 /* Scenic-Info.plist */,
+				8D3AA35726081F92A3B683FDDDE2BDE3 /* Scenic-prefix.pch */,
+				DB89F8266D447C6165C8FAD308EA7A50 /* Scenic-umbrella.h */,
+				997F4ADFCD0BA2BF875EAC82EF8AA174 /* Scenic.debug.xcconfig */,
+				F6FD05988EAC2272F42D9DD408F820E4 /* Scenic.release.xcconfig */,
 			);
-			name = Scenic;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		271F043C1A8E27508461FCD6B537C884 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1281679BAB75C8E6B30477A0E1BB8D78 /* LICENSE */,
-				BC0F260C88060EAC7A72BD655BB974A8 /* README.md */,
-				EACD85C5E34E498B034F7F54551D1DC0 /* Scenic.podspec */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Scenic";
 			sourceTree = "<group>";
 		};
 		411011768BCF17F87563EF4FC304765F /* Pods-Scenic_Tests */ = {
@@ -155,12 +147,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		78ED7F5423CC8F501EC908CD4863C239 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F3A30BDA06E57CD7C345F78176EA8D59 /* LICENSE */,
+				19710E4A2DAFFC9BE943284B8D32B61B /* README.md */,
+				F4FB916E32E0B4B1750EF37F6870C53A /* Scenic.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		A311ACA8D8667C8F4ADFE25CB94C5697 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F557F5AFA80E0C5AF3C28BD5525BE08 /* Scenic */,
+				BB07B1B9B818E6F4EDA24903793B0EF8 /* Scenic */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BB07B1B9B818E6F4EDA24903793B0EF8 /* Scenic */ = {
+			isa = PBXGroup;
+			children = (
+				24527251F1723E3DC9BE7B88A545F1BA /* Router.swift */,
+				1F2B5CBBBFC2301CF2A5D4BE4A246F8A /* Scene.swift */,
+				1D739BF4FA6EBD08647BADAD7EE153CB /* SceneFactory.swift */,
+				27B897CF6B168D33ADB0D59A543296E8 /* ViewController+storyboard.swift */,
+				78ED7F5423CC8F501EC908CD4863C239 /* Pod */,
+				1C2FCC289169F02EA19D0D321F0DA85D /* Support Files */,
+			);
+			name = Scenic;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -169,20 +185,6 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		C578BEBCE98B43896AB7C5C96C85063E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				38E791C7603A0F04DE994E77D3057E55 /* Scenic.modulemap */,
-				DC1F5335504ABA799A46915293AFED16 /* Scenic.xcconfig */,
-				DBA69A2E6C06819FD2D175DF53879944 /* Scenic-dummy.m */,
-				0825D32069FF2229F75DA57FCB456863 /* Scenic-Info.plist */,
-				3C153F55DE87FC71ABA555B3A0914249 /* Scenic-prefix.pch */,
-				1788A3D09CE000324594A6C50A581F0F /* Scenic-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Scenic";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -324,11 +326,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					E244565EA416EEC4BA3DC47491E1713D = {
-						LastSwiftMigration = 1140;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -421,7 +418,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		128CEBE46686C91148317E547D3A080A /* Debug */ = {
+		12CFB02C86146145225292E427830214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997F4ADFCD0BA2BF875EAC82EF8AA174 /* Scenic.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Scenic/Scenic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Scenic/Scenic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Scenic/Scenic.modulemap";
+				PRODUCT_MODULE_NAME = Scenic;
+				PRODUCT_NAME = Scenic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A322C605A3FA38C28F1A8B095B82EDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD60EE743D4D0A5A94C77BE8FC9CD9DC /* Pods-Scenic_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -437,7 +465,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Scenic_Tests/Pods-Scenic_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Scenic_Tests/Pods-Scenic_Tests.modulemap";
@@ -454,171 +482,7 @@
 			};
 			name = Debug;
 		};
-		1EADDD01C817A8ABDE6E53B4A9FCB37C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC1F5335504ABA799A46915293AFED16 /* Scenic.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Scenic/Scenic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Scenic/Scenic-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Scenic/Scenic.modulemap";
-				PRODUCT_MODULE_NAME = Scenic;
-				PRODUCT_NAME = Scenic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		330FF056998050FAF318763E7F7FF879 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9F9728007FCD6993EE4CACAF56C6CF3 /* Pods-Scenic_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Scenic_Tests/Pods-Scenic_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Scenic_Tests/Pods-Scenic_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		397C3AFD8653191CE1AE87CCACE5B376 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A244A94BC6970E208A586F267A004C6A /* Pods-Scenic_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5AAD5A11F3CE01D115867DB66AF4EBA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A6A5E8F82F8BD55486E78CFC3C0D649 /* Pods-Scenic_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		73575543D2EEEA2D55652EECD13593AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC1F5335504ABA799A46915293AFED16 /* Scenic.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Scenic/Scenic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Scenic/Scenic-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Scenic/Scenic.modulemap";
-				PRODUCT_MODULE_NAME = Scenic;
-				PRODUCT_NAME = Scenic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -666,18 +530,152 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+		4E8DBB690942943F5100C3ADF1CC33B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A244A94BC6970E208A586F267A004C6A /* Pods-Scenic_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57C1BD9D9022B874F04C5E757D905098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FD05988EAC2272F42D9DD408F820E4 /* Scenic.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Scenic/Scenic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Scenic/Scenic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Scenic/Scenic.modulemap";
+				PRODUCT_MODULE_NAME = Scenic;
+				PRODUCT_NAME = Scenic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60D3582FB7CCD75C141B6FBB5532E03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6A5E8F82F8BD55486E78CFC3C0D649 /* Pods-Scenic_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		694018494D692EE649C5059C5D648A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F9728007FCD6993EE4CACAF56C6CF3 /* Pods-Scenic_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scenic_Tests/Pods-Scenic_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scenic_Tests/Pods-Scenic_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -728,7 +726,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -747,8 +745,8 @@
 		0CF7A3EBFB3B17D22C9505072601D177 /* Build configuration list for PBXNativeTarget "Pods-Scenic_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				128CEBE46686C91148317E547D3A080A /* Debug */,
-				330FF056998050FAF318763E7F7FF879 /* Release */,
+				1A322C605A3FA38C28F1A8B095B82EDD /* Debug */,
+				694018494D692EE649C5059C5D648A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -756,8 +754,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -765,8 +763,8 @@
 		B991BFAC44BD55404891887A0E16ABBB /* Build configuration list for PBXNativeTarget "Scenic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73575543D2EEEA2D55652EECD13593AA /* Debug */,
-				1EADDD01C817A8ABDE6E53B4A9FCB37C /* Release */,
+				12CFB02C86146145225292E427830214 /* Debug */,
+				57C1BD9D9022B874F04C5E757D905098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -774,8 +772,8 @@
 		E47CF8E377463F4EB3335FC5102F7496 /* Build configuration list for PBXNativeTarget "Pods-Scenic_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AAD5A11F3CE01D115867DB66AF4EBA6 /* Debug */,
-				397C3AFD8653191CE1AE87CCACE5B376 /* Release */,
+				60D3582FB7CCD75C141B6FBB5532E03C /* Debug */,
+				4E8DBB690942943F5100C3ADF1CC33B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -11,10 +11,10 @@ import UIKit
 
 open class Router<ViewController: UIViewController, FactoryContext> {
 
-    private(set) var controller: ViewController?
-    let factory: SceneFactory<FactoryContext>
+    public private(set) var controller: ViewController?
+    public let factory: SceneFactory<FactoryContext>
 
-    init(controller: ViewController, factory: SceneFactory<FactoryContext>) {
+    public init(controller: ViewController, factory: SceneFactory<FactoryContext>) {
         self.controller = controller
         self.factory = factory
     }

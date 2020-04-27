@@ -17,19 +17,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to scenic" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBZ-ze-B5f">
-                                <rect key="frame" x="78" y="429" width="258.5" height="38.5"/>
+                                <rect key="frame" x="78" y="404" width="258.5" height="38.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dw3-8c-3da">
+                                <rect key="frame" x="151.5" y="492.5" width="111" height="42"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" title="CONTINUE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="xBZ-ze-B5f" firstAttribute="centerX" secondItem="2CR-dw-aao" secondAttribute="centerX" id="2w6-aB-aN0"/>
-                            <constraint firstItem="xBZ-ze-B5f" firstAttribute="centerY" secondItem="2CR-dw-aao" secondAttribute="centerY" id="QYx-yy-8ls"/>
+                            <constraint firstItem="dw3-8c-3da" firstAttribute="centerX" secondItem="2CR-dw-aao" secondAttribute="centerX" id="HeO-Rd-kh1"/>
+                            <constraint firstItem="xBZ-ze-B5f" firstAttribute="centerY" secondItem="2CR-dw-aao" secondAttribute="centerY" constant="-25" id="QYx-yy-8ls"/>
+                            <constraint firstItem="dw3-8c-3da" firstAttribute="top" secondItem="xBZ-ze-B5f" secondAttribute="bottom" constant="50" id="hcO-oc-dHL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="l5c-Ce-7qq"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="xBZ-ze-B5f" id="D8p-rt-nAl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mub-gJ-eZ2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -16,6 +16,8 @@
 		A0B003592457639C0090FA9B /* WelcomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B003582457639C0090FA9B /* WelcomeScene.swift */; };
 		A0B0035B245763D10090FA9B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0035A245763D10090FA9B /* WelcomeViewController.swift */; };
 		A0B0035D245764D90090FA9B /* WelcomeScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B0035C245764D90090FA9B /* WelcomeScene.storyboard */; };
+		A0B0035F24576FDE0090FA9B /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0035E24576FDE0090FA9B /* WelcomeViewModel.swift */; };
+		A0B003612457715F0090FA9B /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B003602457715F0090FA9B /* WelcomeRouter.swift */; };
 		EEE16AC4B61DDD7459E65FC8 /* Pods_Scenic_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E433181060BB200D3F760 /* Pods_Scenic_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		A0B003582457639C0090FA9B /* WelcomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScene.swift; sourceTree = "<group>"; };
 		A0B0035A245763D10090FA9B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A0B0035C245764D90090FA9B /* WelcomeScene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeScene.storyboard; sourceTree = "<group>"; };
+		A0B0035E24576FDE0090FA9B /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		A0B003602457715F0090FA9B /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
 		AC54756BC0264F52E028FAB2 /* Pods_Scenic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scenic_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B30AA7013EE320C5E451CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CF60BE8B05677F0DCEE5D323 /* Pods-Scenic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scenic_Example.debug.xcconfig"; path = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -158,8 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				A0B003582457639C0090FA9B /* WelcomeScene.swift */,
+				A0B0035E24576FDE0090FA9B /* WelcomeViewModel.swift */,
 				A0B0035A245763D10090FA9B /* WelcomeViewController.swift */,
 				A0B0035C245764D90090FA9B /* WelcomeScene.storyboard */,
+				A0B003602457715F0090FA9B /* WelcomeRouter.swift */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -221,7 +227,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -346,7 +352,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0B003592457639C0090FA9B /* WelcomeScene.swift in Sources */,
+				A0B0035F24576FDE0090FA9B /* WelcomeViewModel.swift in Sources */,
 				A0B0035B245763D10090FA9B /* WelcomeViewController.swift in Sources */,
+				A0B003612457715F0090FA9B /* WelcomeRouter.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -386,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -394,12 +403,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -439,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -447,12 +459,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

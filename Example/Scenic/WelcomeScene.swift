@@ -16,7 +16,9 @@ struct WelcomeScene: Scene {
                    using factory: SceneFactory<ApplicationContext>,
                    context: ApplicationContext) {
 
-        
+        let router = WelcomeRouter(controller: controller, factory: factory)
+        let viewModel = WelcomeViewModel(router: router)
 
+        controller.viewModel = viewModel
     }
 }

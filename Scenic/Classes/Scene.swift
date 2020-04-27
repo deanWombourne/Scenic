@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 /// A `Scene` is a type used to create and configure a view controller
-protocol Scene {
+public protocol Scene {
 
     /// A `Scene` wraps a single view controller type. It can make others internally, but when used by a `SceneFactory`
     /// this is the controller type returned.
@@ -54,7 +54,7 @@ extension Scene where ViewControllerType: StoryboardInstantiable {
     ///
     /// If the view controller type is `StoryboardInstantiable` then we can just use that to implement
     /// `createViewController()` for the `Scene`.
-    func createViewController() -> ViewControllerType {
+    public func createViewController() -> ViewControllerType {
         self.createViewControllerFromSceneStoryboard(in: nil)
     }
 }

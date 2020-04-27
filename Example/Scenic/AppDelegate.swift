@@ -6,7 +6,13 @@
 //  Copyright (c) 2020 deanWombourne. All rights reserved.
 //
 
+import Foundation
 import UIKit
+
+import Scenic
+
+struct ApplicationContext {
+}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +21,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        let context = ApplicationContext()
+        let factory = SceneFactory(context: context)
+
+        let window = UIWindow()
+        window.rootViewController = factory.createViewController(WelcomeScene())
+        window.makeKeyAndVisible()
+        self.window = window
+
         return true
     }
 

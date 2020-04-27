@@ -9,14 +9,14 @@
 import Foundation
 import UIKit
 
-protocol StoryboardInstantiable where Self: UIViewController {
+public protocol StoryboardInstantiable where Self: UIViewController {
 
     static func instantiateFromStoryboard(named storyboardName: String, bundle: Bundle?) -> Self
 }
 
 extension UIViewController: StoryboardInstantiable {
 
-    static func instantiateFromStoryboard(named storyboardName: String, bundle: Bundle?) -> Self {
+    public static func instantiateFromStoryboard(named storyboardName: String, bundle: Bundle?) -> Self {
         let storyboard = UIStoryboard(name: storyboardName, bundle: bundle)
 
         var candidate = storyboard.instantiateInitialViewController()

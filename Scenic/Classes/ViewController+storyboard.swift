@@ -1,6 +1,6 @@
 //
 //  ViewController+storyboard.swift
-//  PinkNews
+//  Scenic
 //
 //  Created by Sam Dean on 23/04/2020.
 //  Copyright © 2020 Pink News. All rights reserved.

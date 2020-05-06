@@ -3,7 +3,7 @@
 //  Scenic
 //
 //  Created by Sam Dean on 23/04/2020.
-//  Copyright © 2020 Pink News. All rights reserved.
+//  Copyright © 2020 samdeanconsulting. All rights reserved.
 //
 
 import Foundation

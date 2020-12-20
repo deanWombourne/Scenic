@@ -34,7 +34,7 @@
 /* Begin PBXFileReference section */
 		25258DCA98131DFD62F991D3 /* Pods-Scenic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scenic_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Scenic_Tests/Pods-Scenic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F3E433181060BB200D3F760 /* Pods_Scenic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scenic_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		428C1595FFF1355D71728C92 /* Scenic.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Scenic.podspec; path = ../Scenic.podspec; sourceTree = "<group>"; };
+		428C1595FFF1355D71728C92 /* Scenic.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Scenic.podspec; path = ../Scenic.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A0D74FA647B6FF9C4297D81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Scenic_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scenic_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,7 @@
 		A0ED4C29258FA92E00DF94E0 /* WelcomeScene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WelcomeScene.storyboard; sourceTree = "<group>"; };
 		A0ED4C2A258FA92E00DF94E0 /* WelcomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
 		A0ED4C2B258FA92E00DF94E0 /* WelcomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScene.swift; sourceTree = "<group>"; };
+		A0ED4C34258FA96900DF94E0 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Gemfile; path = ../Gemfile; sourceTree = "<group>"; };
 		AC54756BC0264F52E028FAB2 /* Pods_Scenic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scenic_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B30AA7013EE320C5E451CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CF60BE8B05677F0DCEE5D323 /* Pods-Scenic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scenic_Example.debug.xcconfig"; path = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,7 +81,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACF51AFB993E008FA782 /* Metadata */,
 				607FACD21AFB9204008FA782 /* Example for Scenic */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -136,14 +137,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+		607FACF51AFB993E008FA782 /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				A0ED4C34258FA96900DF94E0 /* Gemfile */,
 				428C1595FFF1355D71728C92 /* Scenic.podspec */,
 				5A0D74FA647B6FF9C4297D81 /* README.md */,
 				B5B30AA7013EE320C5E451CA /* LICENSE */,
 			);
-			name = "Podspec Metadata";
+			name = Metadata;
 			sourceTree = "<group>";
 		};
 		9F5FD43DB2D11C7B447D437C /* Pods */ = {

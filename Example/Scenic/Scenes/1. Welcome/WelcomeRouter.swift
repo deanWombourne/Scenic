@@ -14,6 +14,8 @@ import Scenic
 final class WelcomeRouter: Router<WelcomeViewController, ApplicationContext> {
 
     func enterApp() {
-        
+        let controller = self.factory.createViewController(TabControllerScene())
+        controller.modalPresentationStyle = .fullScreen
+        self.controller?.present(controller, animated: true, completion: nil)
     }
 }

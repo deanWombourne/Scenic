@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Q5G-st-k3R">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Q5G-st-k3R">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,28 +18,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to scenic" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBZ-ze-B5f">
-                                <rect key="frame" x="78" y="404" width="258.5" height="38.5"/>
+                                <rect key="frame" x="77.5" y="404" width="259" height="38.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dw3-8c-3da">
-                                <rect key="frame" x="151.5" y="492.5" width="111" height="42"/>
+                                <rect key="frame" x="152" y="492.5" width="110" height="42"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonDidTouchUpInside:" destination="Q5G-st-k3R" eventType="touchUpInside" id="jv2-s6-egh"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="l5c-Ce-7qq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="xBZ-ze-B5f" firstAttribute="centerX" secondItem="2CR-dw-aao" secondAttribute="centerX" id="2w6-aB-aN0"/>
                             <constraint firstItem="dw3-8c-3da" firstAttribute="centerX" secondItem="2CR-dw-aao" secondAttribute="centerX" id="HeO-Rd-kh1"/>
                             <constraint firstItem="xBZ-ze-B5f" firstAttribute="centerY" secondItem="2CR-dw-aao" secondAttribute="centerY" constant="-25" id="QYx-yy-8ls"/>
                             <constraint firstItem="dw3-8c-3da" firstAttribute="top" secondItem="xBZ-ze-B5f" secondAttribute="bottom" constant="50" id="hcO-oc-dHL"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="l5c-Ce-7qq"/>
                     </view>
                     <connections>
                         <outlet property="label" destination="xBZ-ze-B5f" id="D8p-rt-nAl"/>
@@ -49,4 +53,9 @@
             <point key="canvasLocation" x="210" y="165"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

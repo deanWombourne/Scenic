@@ -18,6 +18,7 @@
 		A0ED4C2F258FA92E00DF94E0 /* WelcomeScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0ED4C29258FA92E00DF94E0 /* WelcomeScene.storyboard */; };
 		A0ED4C30258FA92E00DF94E0 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED4C2A258FA92E00DF94E0 /* WelcomeRouter.swift */; };
 		A0ED4C31258FA92E00DF94E0 /* WelcomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED4C2B258FA92E00DF94E0 /* WelcomeScene.swift */; };
+		A0ED4C3E258FA9E200DF94E0 /* TabControllerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED4C3D258FA9E200DF94E0 /* TabControllerScene.swift */; };
 		EEE16AC4B61DDD7459E65FC8 /* Pods_Scenic_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E433181060BB200D3F760 /* Pods_Scenic_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		A0ED4C2A258FA92E00DF94E0 /* WelcomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
 		A0ED4C2B258FA92E00DF94E0 /* WelcomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScene.swift; sourceTree = "<group>"; };
 		A0ED4C34258FA96900DF94E0 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Gemfile; path = ../Gemfile; sourceTree = "<group>"; };
+		A0ED4C3D258FA9E200DF94E0 /* TabControllerScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabControllerScene.swift; sourceTree = "<group>"; };
 		AC54756BC0264F52E028FAB2 /* Pods_Scenic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scenic_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B30AA7013EE320C5E451CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CF60BE8B05677F0DCEE5D323 /* Pods-Scenic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scenic_Example.debug.xcconfig"; path = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		A0ED4C24258FA92E00DF94E0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A0ED4C3C258FA9D400DF94E0 /* 2. TabController */,
 				A0ED4C25258FA92E00DF94E0 /* 1. Welcome */,
 			);
 			path = Scenes;
@@ -178,6 +181,14 @@
 				A0ED4C2B258FA92E00DF94E0 /* WelcomeScene.swift */,
 			);
 			path = "1. Welcome";
+			sourceTree = "<group>";
+		};
+		A0ED4C3C258FA9D400DF94E0 /* 2. TabController */ = {
+			isa = PBXGroup;
+			children = (
+				A0ED4C3D258FA9E200DF94E0 /* TabControllerScene.swift */,
+			);
+			path = "2. TabController";
 			sourceTree = "<group>";
 		};
 		EC7264580B31111B068F380F /* Frameworks */ = {
@@ -364,6 +375,7 @@
 				A0ED4C2D258FA92E00DF94E0 /* WelcomeViewController.swift in Sources */,
 				A0ED4C2E258FA92E00DF94E0 /* WelcomeViewModel.swift in Sources */,
 				A0ED4C2C258FA92E00DF94E0 /* ViewController.swift in Sources */,
+				A0ED4C3E258FA9E200DF94E0 /* TabControllerScene.swift in Sources */,
 				A0ED4C31258FA92E00DF94E0 /* WelcomeScene.swift in Sources */,
 				A0ED4C30258FA92E00DF94E0 /* WelcomeRouter.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,

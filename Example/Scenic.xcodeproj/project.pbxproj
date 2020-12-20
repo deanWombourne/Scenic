@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		5E1547E3840A5EEAE3DA4090 /* Pods_Scenic_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC54756BC0264F52E028FAB2 /* Pods_Scenic_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A0B003592457639C0090FA9B /* WelcomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B003582457639C0090FA9B /* WelcomeScene.swift */; };
-		A0B0035B245763D10090FA9B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0035A245763D10090FA9B /* WelcomeViewController.swift */; };
-		A0B0035D245764D90090FA9B /* WelcomeScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B0035C245764D90090FA9B /* WelcomeScene.storyboard */; };
-		A0B0035F24576FDE0090FA9B /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0035E24576FDE0090FA9B /* WelcomeViewModel.swift */; };
-		A0B003612457715F0090FA9B /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B003602457715F0090FA9B /* WelcomeRouter.swift */; };
+		A0ED4C2C258FA92E00DF94E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED4C26258FA92E00DF94E0 /* ViewController.swift */; };
+		A0ED4C2D258FA92E00DF94E0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED4C27258FA92E00DF94E0 /* WelcomeViewController.swift */; };
+		A0ED4C2E258FA92E00DF94E0 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED4C28258FA92E00DF94E0 /* WelcomeViewModel.swift */; };
+		A0ED4C2F258FA92E00DF94E0 /* WelcomeScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0ED4C29258FA92E00DF94E0 /* WelcomeScene.storyboard */; };
+		A0ED4C30258FA92E00DF94E0 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED4C2A258FA92E00DF94E0 /* WelcomeRouter.swift */; };
+		A0ED4C31258FA92E00DF94E0 /* WelcomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED4C2B258FA92E00DF94E0 /* WelcomeScene.swift */; };
 		EEE16AC4B61DDD7459E65FC8 /* Pods_Scenic_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E433181060BB200D3F760 /* Pods_Scenic_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,18 +39,18 @@
 		607FACD01AFB9204008FA782 /* Scenic_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scenic_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Scenic_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scenic_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8D2F311C8C1BBBCAEC871EB2 /* Pods-Scenic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scenic_Tests.release.xcconfig"; path = "Target Support Files/Pods-Scenic_Tests/Pods-Scenic_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A0B003582457639C0090FA9B /* WelcomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScene.swift; sourceTree = "<group>"; };
-		A0B0035A245763D10090FA9B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		A0B0035C245764D90090FA9B /* WelcomeScene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeScene.storyboard; sourceTree = "<group>"; };
-		A0B0035E24576FDE0090FA9B /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
-		A0B003602457715F0090FA9B /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
+		A0ED4C26258FA92E00DF94E0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0ED4C27258FA92E00DF94E0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A0ED4C28258FA92E00DF94E0 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		A0ED4C29258FA92E00DF94E0 /* WelcomeScene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WelcomeScene.storyboard; sourceTree = "<group>"; };
+		A0ED4C2A258FA92E00DF94E0 /* WelcomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
+		A0ED4C2B258FA92E00DF94E0 /* WelcomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScene.swift; sourceTree = "<group>"; };
 		AC54756BC0264F52E028FAB2 /* Pods_Scenic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scenic_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B30AA7013EE320C5E451CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CF60BE8B05677F0DCEE5D323 /* Pods-Scenic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scenic_Example.debug.xcconfig"; path = "Target Support Files/Pods-Scenic_Example/Pods-Scenic_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,9 +101,8 @@
 		607FACD21AFB9204008FA782 /* Example for Scenic */ = {
 			isa = PBXGroup;
 			children = (
-				A0B003572457638F0090FA9B /* Scenes */,
+				A0ED4C24258FA92E00DF94E0 /* Scenes */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -158,16 +157,25 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		A0B003572457638F0090FA9B /* Scenes */ = {
+		A0ED4C24258FA92E00DF94E0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				A0B003582457639C0090FA9B /* WelcomeScene.swift */,
-				A0B0035E24576FDE0090FA9B /* WelcomeViewModel.swift */,
-				A0B0035A245763D10090FA9B /* WelcomeViewController.swift */,
-				A0B0035C245764D90090FA9B /* WelcomeScene.storyboard */,
-				A0B003602457715F0090FA9B /* WelcomeRouter.swift */,
+				A0ED4C25258FA92E00DF94E0 /* 1. Welcome */,
 			);
-			name = Scenes;
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A0ED4C25258FA92E00DF94E0 /* 1. Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				A0ED4C26258FA92E00DF94E0 /* ViewController.swift */,
+				A0ED4C27258FA92E00DF94E0 /* WelcomeViewController.swift */,
+				A0ED4C28258FA92E00DF94E0 /* WelcomeViewModel.swift */,
+				A0ED4C29258FA92E00DF94E0 /* WelcomeScene.storyboard */,
+				A0ED4C2A258FA92E00DF94E0 /* WelcomeRouter.swift */,
+				A0ED4C2B258FA92E00DF94E0 /* WelcomeScene.swift */,
+			);
+			path = "1. Welcome";
 			sourceTree = "<group>";
 		};
 		EC7264580B31111B068F380F /* Frameworks */ = {
@@ -266,8 +274,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B0035D245764D90090FA9B /* WelcomeScene.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				A0ED4C2F258FA92E00DF94E0 /* WelcomeScene.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,11 +359,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B003592457639C0090FA9B /* WelcomeScene.swift in Sources */,
-				A0B0035F24576FDE0090FA9B /* WelcomeViewModel.swift in Sources */,
-				A0B0035B245763D10090FA9B /* WelcomeViewController.swift in Sources */,
-				A0B003612457715F0090FA9B /* WelcomeRouter.swift in Sources */,
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				A0ED4C2D258FA92E00DF94E0 /* WelcomeViewController.swift in Sources */,
+				A0ED4C2E258FA92E00DF94E0 /* WelcomeViewModel.swift in Sources */,
+				A0ED4C2C258FA92E00DF94E0 /* ViewController.swift in Sources */,
+				A0ED4C31258FA92E00DF94E0 /* WelcomeScene.swift in Sources */,
+				A0ED4C30258FA92E00DF94E0 /* WelcomeRouter.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

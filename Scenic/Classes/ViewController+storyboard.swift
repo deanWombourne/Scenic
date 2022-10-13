@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public protocol StoryboardInstantiable where Self: UIViewController {
+public protocol StoryboardInstantiable {
 
     static func instantiateFromStoryboard(named storyboardName: String, bundle: Bundle?) -> Self
 }

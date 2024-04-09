@@ -45,4 +45,27 @@ extension Router {
     public func pushScene<T: Scene>(_ scene: @autoclosure () -> T, animated: Bool = true) -> Bool where T.FactoryContext == FactoryContext {
         self.push(factory.createViewController(scene()), animated: animated)
     }
+
+    @discardableResult
+    public func presentScene<T: Scene>(_ scene: @autoclosure () -> T, animated: Bool = true, completion: (() -> Void)? = nil) -> Bool where T.FactoryContext == FactoryContext {
+        guard let controller else { return false }
+        controller.present(factory.createViewController(scene()), animated: animated, completion: completion)
+        return true
+    }
+
+    @discardableResult
+    public func presentNavigationScene<T: Scene, N: UINavigationController>(
+        _ scene: @autoclosure () -> T,
+        navigationController: ((_ rootViewController: T.ViewControllerType) -> N)?,
+        animated: Bool = true,
+        completion: (() -> Void)? = nil) -> Bool where T.FactoryContext == FactoryContext {
+            guard let controller else { return false }
+
+            let sceneController = factory.createViewController(scene())
+
+            let navigationController = navigationController?(sceneController) ?? UINavigationController(rootViewController: sceneController)
+
+            controller.present(navigationController, animated: animated, completion: completion)
+            return true
+    }
 }
